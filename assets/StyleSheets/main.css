@@ -1,0 +1,103 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul li {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+*{
+    box-sizing: border-box;
+    border: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.background{
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)),
+        url(../Images/blog.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 760px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.grid1{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    height: 60%;
+    width: 80%;
+}
+.grid11{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    height: 40%;
+    width: 40%;
+}
+.heading{
+    font-size: 32px;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 1px;
+}
+.grid12{
+    background: rgba(255, 255, 255,.75);
+    opacity: .7;
+    position: absolute;
+    top: 16%;
+    right: 10%;
+    width: 32.5%;
+    height: 72%;
+    border-radius: 5px;
+}
+.form{
+    top:28%;
+    right: 14.5%;
+    position: absolute;
+    height: 90%;
+    width: 24%;
+}
+.form input{
+    opacity: 1 ;
+    padding: 8px 20px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #BDBDBD;
+    border-radius: 10px;
+    margin-bottom: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+input[type="text"],
+input[type="email"]{
+    background:rgba(255, 255, 255,1);
+    color:#FAFAFA;
+}
+input[type="submit"]{
+    color: white !important;
+    background: #263238 !important;
+}
