@@ -148,7 +148,7 @@ input[type="submit"] {
 
 @media only screen and (max-width: 880px) {
     .background {
-        height: 670px;
+        height: 680px;
     }
 
     .grid1 {
@@ -172,7 +172,7 @@ input[type="submit"] {
     .form {
         top: 25%;
         right: 10%;
-        height: 64%;
+        height: 58%;
     }
 
     .form input {
